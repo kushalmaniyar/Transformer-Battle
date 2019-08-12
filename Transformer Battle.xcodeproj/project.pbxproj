@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84573B3F22FE9E980060B53E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84573B3D22FE9E980060B53E /* LaunchScreen.storyboard */; };
+		84573B4E22FEA4060060B53E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84573B4D22FEA4060060B53E /* AppDelegate.swift */; };
+		84573B5122FEA43F0060B53E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84573B4F22FEA43F0060B53E /* Assets.xcassets */; };
+		84573B5422FEA4560060B53E /* Transformer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84573B5322FEA4560060B53E /* Transformer.storyboard */; };
+		84573B5622FEA6970060B53E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84573B5522FEA6970060B53E /* APIManager.swift */; };
+		845D619122FEC2B800E8834F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D619022FEC2B700E8834F /* Constant.swift */; };
+		845D619322FEC59300E8834F /* APIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D619222FEC59300E8834F /* APIVC.swift */; };
+		845D619A22FED12000E8834F /* Transformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D619922FED12000E8834F /* Transformer.swift */; };
+		AFD193422BD629C0D55224D7 /* Pods_Transformer_Battle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDCF71D7C9E183AA9F9A002 /* Pods_Transformer_Battle.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84573B3122FE9E940060B53E /* Transformer Battle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Transformer Battle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84573B3E22FE9E980060B53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84573B4D22FEA4060060B53E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84573B4F22FEA43F0060B53E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84573B5022FEA43F0060B53E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84573B5322FEA4560060B53E /* Transformer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transformer.storyboard; sourceTree = "<group>"; };
+		84573B5522FEA6970060B53E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		845D619022FEC2B700E8834F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		845D619222FEC59300E8834F /* APIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIVC.swift; sourceTree = "<group>"; };
+		845D619922FED12000E8834F /* Transformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transformer.swift; sourceTree = "<group>"; };
+		8A0A799D69A3B7D48F31370B /* Pods-Transformer Battle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transformer Battle.debug.xcconfig"; path = "Target Support Files/Pods-Transformer Battle/Pods-Transformer Battle.debug.xcconfig"; sourceTree = "<group>"; };
+		8FDCF71D7C9E183AA9F9A002 /* Pods_Transformer_Battle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transformer_Battle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75C61935660E49FA0B4B1F2 /* Pods-Transformer Battle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transformer Battle.release.xcconfig"; path = "Target Support Files/Pods-Transformer Battle/Pods-Transformer Battle.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84573B2E22FE9E940060B53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD193422BD629C0D55224D7 /* Pods_Transformer_Battle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EE6B0A7C1801F4C9B0CD3E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FDCF71D7C9E183AA9F9A002 /* Pods_Transformer_Battle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84573B2822FE9E930060B53E = {
+			isa = PBXGroup;
+			children = (
+				84573B3322FE9E940060B53E /* Transformer Battle */,
+				84573B3222FE9E940060B53E /* Products */,
+				9A91ED9438F25C8798444E9F /* Pods */,
+				3EE6B0A7C1801F4C9B0CD3E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84573B3222FE9E940060B53E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84573B3122FE9E940060B53E /* Transformer Battle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84573B3322FE9E940060B53E /* Transformer Battle */ = {
+			isa = PBXGroup;
+			children = (
+				84573B4722FEA4050060B53E /* APIManager */,
+				84573B4C22FEA4060060B53E /* AppDelegate */,
+				84573B4922FEA4050060B53E /* Constant */,
+				84573B4622FEA4050060B53E /* Extensions */,
+				84573B4B22FEA4060060B53E /* Model */,
+				84573B4A22FEA4050060B53E /* Resources */,
+				84573B4822FEA4050060B53E /* Storyboard */,
+				84573B3D22FE9E980060B53E /* LaunchScreen.storyboard */,
+			);
+			path = "Transformer Battle";
+			sourceTree = "<group>";
+		};
+		84573B4622FEA4050060B53E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84573B4722FEA4050060B53E /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				84573B5522FEA6970060B53E /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		84573B4822FEA4050060B53E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				84573B5322FEA4560060B53E /* Transformer.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		84573B4922FEA4050060B53E /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				845D619022FEC2B700E8834F /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		84573B4A22FEA4050060B53E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84573B4F22FEA43F0060B53E /* Assets.xcassets */,
+				84573B5022FEA43F0060B53E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84573B4B22FEA4060060B53E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				845D619922FED12000E8834F /* Transformer.swift */,
+				845D619222FEC59300E8834F /* APIVC.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84573B4C22FEA4060060B53E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				84573B4D22FEA4060060B53E /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9A91ED9438F25C8798444E9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A0A799D69A3B7D48F31370B /* Pods-Transformer Battle.debug.xcconfig */,
+				B75C61935660E49FA0B4B1F2 /* Pods-Transformer Battle.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84573B3022FE9E940060B53E /* Transformer Battle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84573B4322FE9E980060B53E /* Build configuration list for PBXNativeTarget "Transformer Battle" */;
+			buildPhases = (
+				0D383443567BF48C885C658E /* [CP] Check Pods Manifest.lock */,
+				84573B2D22FE9E940060B53E /* Sources */,
+				84573B2E22FE9E940060B53E /* Frameworks */,
+				84573B2F22FE9E940060B53E /* Resources */,
+				FC55E1248C886C2BEF070017 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Transformer Battle";
+			productName = "Transformer Battle";
+			productReference = 84573B3122FE9E940060B53E /* Transformer Battle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84573B2922FE9E930060B53E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Kushal;
+				TargetAttributes = {
+					84573B3022FE9E940060B53E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 84573B2C22FE9E940060B53E /* Build configuration list for PBXProject "Transformer Battle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84573B2822FE9E930060B53E;
+			productRefGroup = 84573B3222FE9E940060B53E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84573B3022FE9E940060B53E /* Transformer Battle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84573B2F22FE9E940060B53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84573B5422FEA4560060B53E /* Transformer.storyboard in Resources */,
+				84573B5122FEA43F0060B53E /* Assets.xcassets in Resources */,
+				84573B3F22FE9E980060B53E /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D383443567BF48C885C658E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Transformer Battle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC55E1248C886C2BEF070017 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Transformer Battle/Pods-Transformer Battle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Transformer Battle/Pods-Transformer Battle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Transformer Battle/Pods-Transformer Battle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84573B2D22FE9E940060B53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84573B5622FEA6970060B53E /* APIManager.swift in Sources */,
+				845D619322FEC59300E8834F /* APIVC.swift in Sources */,
+				84573B4E22FEA4060060B53E /* AppDelegate.swift in Sources */,
+				845D619A22FED12000E8834F /* Transformer.swift in Sources */,
+				845D619122FEC2B800E8834F /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84573B3D22FE9E980060B53E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84573B3E22FE9E980060B53E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84573B4122FE9E980060B53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84573B4222FE9E980060B53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84573B4422FE9E980060B53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A0A799D69A3B7D48F31370B /* Pods-Transformer Battle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Transformer Battle/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.transformer.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84573B4522FE9E980060B53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B75C61935660E49FA0B4B1F2 /* Pods-Transformer Battle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Transformer Battle/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.transformer.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84573B2C22FE9E940060B53E /* Build configuration list for PBXProject "Transformer Battle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84573B4122FE9E980060B53E /* Debug */,
+				84573B4222FE9E980060B53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84573B4322FE9E980060B53E /* Build configuration list for PBXNativeTarget "Transformer Battle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84573B4422FE9E980060B53E /* Debug */,
+				84573B4522FE9E980060B53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84573B2922FE9E930060B53E /* Project object */;
+}
